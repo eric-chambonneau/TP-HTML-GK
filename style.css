@@ -3,6 +3,10 @@ h1 {
 }
 body {
     margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-family: 'Courier New', Courier, monospace; 
+
 }
 
 h2 {
@@ -34,15 +38,27 @@ p :first-child {
     padding: 20px;
     margin-top: 50px;
     height: auto;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
 }
 .main {
     background: lightgrey;
     padding: 20px;
     overflow: hidden;
+    line-height: 1.4;
+    font-size: 16px;
+}
+.main p {
+    text-align: center;
 }
 
 .header-nav a {
     padding: 0 10px;
+    color: inherit;
+    text-decoration: underline dotted;
+    font-weight: bold;
 }
 .footer {
     background: grey;
