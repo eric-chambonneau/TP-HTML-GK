@@ -42,6 +42,7 @@ p :first-child {
     font-size: 14px;
     text-align: center;
     font-style: italic;
+    
 }
 .main {
     background: lightgrey;
@@ -49,6 +50,7 @@ p :first-child {
     overflow: hidden;
     line-height: 1.4;
     font-size: 16px;
+    z-index: 1;
 }
 .main p {
     text-align: center;
@@ -70,9 +72,27 @@ img {
 }
 
 .header-nav {
-    margin: 50px 0;
+    margin: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: blueviolet;
+    width: 70%;
+    z-index: 3;
+  
     
 }
 span {
     background: greenyellow;
+}
+
+.button {
+    color: white;
+    background: blueviolet;
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    font-size: 20px;
+   
 }
